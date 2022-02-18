@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo-fpt" src="image/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="https://github.com/nghiaplps17855/AutoQuizPolyExtension">Download</a></li>
+                    <li><a href="https://github.com/nghiaplps17855">Github</a></li>
+                    <li><a href="https://www.facebook.com/nghiapl2611">Author</a></li>
+                    <li><a href="https://voz.vn">Forum</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>QUIZ POLY EXTENSION</h1>
+            <p>Không thương mại. Chỉ để vọc vạch. Tác giả không chịu trách nhiệm dưới mọi hình thức :v</p>
+            <a href="https://github.com/nghiaplps17855/AutoQuizPolyExtension" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </section>
+    <section class="header">
+        <div class="text-box">
+            <h1>MINI GAME</h1>
+            <p>Hãy nhập tuổi của bạn để chúng tôi đoán tuổi của bạn</p>
+            <div style="padding: 0px 0px 20px">
+                <input id="input-age" type="text" class="hero-btn"> <br>
+            </div>
+            <p id="tuoilon" style="padding: 10px 0 10px;"></p>
+            <div>
+                <button class="hero-btn" onclick="doantuoi()">Bắt đầu</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script>
+    function doantuoi(){
+        document.getElementById("tuoilon").innerText = "Chúc mừng tuổi của bạn là: Tuoi lon";
+    }
+</script>
+</html>
